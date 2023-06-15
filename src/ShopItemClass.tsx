@@ -17,7 +17,7 @@ class ShopItemClass extends React.Component {
     );
 
     this.products = response.data;
-    this.forceUpdate();
+    this.forceUpdate()
   }
 
   render() {
